@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambola Ticket Generator - Upto 100 tickets, print and enjoy!</title>
+    <meta name="title" content="Tambola Ticket Generator - Upto 100 tickets, print and enjoy!">
+    <meta name="description" content="A simple tool to generate tambola tickets. Generate upto 100 tambola tickets, print them and have fun!">
+    <meta name="google-site-verification" content="NWoSsIwXPpR8mSxysD26HnYnhTQOC9nmIpevX7aTJpM" />
+    <title>Tambola Ticket Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Tambola Ticket Generator</h1>
+    <div class="input-container">
+        <label for="ticketCount">
+            Enter number of tickets(1 to 100), print the page and enjoy!
+            <input type="number" id="ticketCount" name="ticketCount" required min="1" max="100" value="10">
+        </label>
+        <button id="shuffleButton">Shuffle</button>
+    </div>
+    <div class="buttons">
+        <button id="print-button">Print</button>
+    </div>
+    <div class="tickets"></div>
+    <script src="script.js"></script>
+</body>
+</html>
